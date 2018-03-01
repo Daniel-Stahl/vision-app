@@ -74,7 +74,14 @@
                                 <state key="normal" title="FLASH OFF">
                                     <color key="titleColor" red="0.80784313730000001" green="0.3294117647" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="flashBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4jB-3E-ihV"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="jhN-vh-uqH">
+                                <rect key="frame" x="307" y="573" width="20" height="20"/>
+                                <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -85,6 +92,8 @@
                             <constraint firstItem="hYn-44-HEZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="V0Y-s2-ueF"/>
                             <constraint firstItem="hYn-44-HEZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XUf-Si-uKa"/>
                             <constraint firstItem="XGR-DJ-I3G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YMa-zU-mF8"/>
+                            <constraint firstItem="jhN-vh-uqH" firstAttribute="centerX" secondItem="sVy-Dp-VHs" secondAttribute="centerX" id="cJQ-0Z-aby"/>
+                            <constraint firstItem="jhN-vh-uqH" firstAttribute="centerY" secondItem="sVy-Dp-VHs" secondAttribute="centerY" id="ffz-dh-61O"/>
                             <constraint firstItem="hYn-44-HEZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gk8-cs-Wxz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sVy-Dp-VHs" secondAttribute="bottom" constant="20" id="hYL-88-367"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XGR-DJ-I3G" secondAttribute="bottom" constant="20" id="lwe-Ws-b2o"/>
@@ -99,6 +108,7 @@
                         <outlet property="flashBtn" destination="XGR-DJ-I3G" id="crK-fC-jxa"/>
                         <outlet property="identificationLbl" destination="aLu-2b-RXQ" id="Sig-LH-W1e"/>
                         <outlet property="roundedLblView" destination="ZTk-ny-nkY" id="q9B-ck-Vz5"/>
+                        <outlet property="spinner" destination="jhN-vh-uqH" id="4wr-kL-Hw5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
