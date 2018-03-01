@@ -12,6 +12,10 @@
 		43C047482047719100D22200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C047472047719100D22200 /* Assets.xcassets */; };
 		43C0474B2047719100D22200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C047492047719100D22200 /* LaunchScreen.storyboard */; };
 		43C047562047723A00D22200 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C047552047723A00D22200 /* CameraVC.swift */; };
+		43C047582047757B00D22200 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C047572047757B00D22200 /* RoundedShadowView.swift */; };
+		43C0475A204776F800D22200 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C04759204776F800D22200 /* RoundedShadowButton.swift */; };
+		43C0475C2047773F00D22200 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C0475B2047773F00D22200 /* RoundedShadowImageView.swift */; };
+		43C0475E204782D000D22200 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43C0475D204782D000D22200 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		43C0474A2047719100D22200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43C0474C2047719100D22200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43C047552047723A00D22200 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		43C047572047757B00D22200 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		43C04759204776F800D22200 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		43C0475B2047773F00D22200 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
+		43C0475D204782D000D22200 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,9 @@
 		43C04753204771BC00D22200 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				43C047572047757B00D22200 /* RoundedShadowView.swift */,
+				43C04759204776F800D22200 /* RoundedShadowButton.swift */,
+				43C0475B2047773F00D22200 /* RoundedShadowImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -84,6 +95,7 @@
 		43C04754204771CC00D22200 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				43C0475D204782D000D22200 /* SqueezeNet.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -161,7 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C047412047719100D22200 /* AppDelegate.swift in Sources */,
+				43C0475E204782D000D22200 /* SqueezeNet.mlmodel in Sources */,
 				43C047562047723A00D22200 /* CameraVC.swift in Sources */,
+				43C047582047757B00D22200 /* RoundedShadowView.swift in Sources */,
+				43C0475A204776F800D22200 /* RoundedShadowButton.swift in Sources */,
+				43C0475C2047773F00D22200 /* RoundedShadowImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
